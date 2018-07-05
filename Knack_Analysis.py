@@ -72,7 +72,7 @@ for i in range (1,56):
 ####################################
 #plot of all users Knack
 ####################################
-
+	#use loop instead
 	plt.plot([1,2,3,4],[knack_data["User1_1"][i],knack_data["User1_2"][i], knack_data["User1_3"][i], knack_data["User1_4"][i]] , color='red', label="User1", linewidth=3)
 	plt.plot([1,2,3,4,5],[knack_data["User2_1"][i],knack_data["User2_2"][i], knack_data["User2_3"][i], knack_data["User2_4"][i],knack_data["User2_5"][i]] , color='blue', label="User2",linewidth=3)
 	plt.plot([1,2,3,4,5],[knack_data["User3_1"][i], knack_data["User3_2"][i],knack_data["User3_3"][i], knack_data["User3_4"][i], knack_data["User3_5"][i]] , color='green',label="User3", linewidth=3)
